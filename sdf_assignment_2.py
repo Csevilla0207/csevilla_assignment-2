@@ -19,6 +19,17 @@ plus_one_year = current_year + 1
 print(f"one year: {plus_one_year} type: {type (plus_one_year)}")
 
 #CALCULATIONS
+GST = 0.05
+PST = 0.07
+Vehicle_Price = 70000
+
+Federal_Tax = Vehicle_Price * GST
+Provincial_Tax = Vehicle_Price * PST
+
+Cost = Vehicle_Price + Federal_Tax + Provincial_Tax
+
+print(f"Pre tax value : {Vehicle_Price} Provincial tax: {Provincial_Tax} Federal tax: {Federal_Tax} Total: {Cost}")
+
 
 #LISTS
 
